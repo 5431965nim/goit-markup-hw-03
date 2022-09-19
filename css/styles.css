@@ -267,3 +267,27 @@ color: #18a0fb;
 .addres-link:last-child{
     padding-bottom: 60px;
 } 
+.container-test{
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.flex-container{
+    display: flex;
+ flex-wrap: wrap;
+ background-color: teal;
+}
+.flex-elements{
+    width: 370px;
+    background-color: tomato;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.flex-elements:nth-child(3n){
+    margin-right: 0;
+}
+.flex-elements:nth-last-child(-n +3){
+    margin-bottom: 0;
+}
