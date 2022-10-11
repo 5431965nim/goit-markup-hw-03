@@ -1,148 +1,163 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <div class="container">
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>WebStudio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="./css/styles.css">
+	</head>
+	<body>
+		<!-- Верхняя шапка -->
 			<header class="header">
-				<nav class="navigation">
-				<div class="logo"><span class="logo-primary">Web</span><span class="logo-secondary">Studio</span></div>
+				<div class="container head">
+				<a class="logo-primary" href="./index.html">Web<span class="logo-secondary-noon">Studio</span></a>
+					<nav class="navigation">
 						<ul class="navigation-list">
-							<li class="navigation-item"><a href="/" class="navigation-link">Студия</a></li>
-							<li class="navigation-item"><a href="./index.html" class="navigation-link">Портфолио</a></li>
-							<li class="navigation-item"><a href="" class="navigation-link">Контакты</a></li>
+							<li class="navigation-item"><a href="./index.html" class="navigation-link">Студия</a></li>
+							<li class="navigation-item"><a href="./portfolio.html" class="navigation-link-active">Портфолио</a></li>
+							<li class="navigation-item"><a href="#" class="navigation-link">Контакты</a></li>
 						</ul>
-					<address class="auth-address">
-						<a class="item" href="info@devstudio.com">info@devstudio.com</a>
-						<a class="item" href="tel:+380961111111">38(096)111-11-11"</a>
-					</address>
-				</nav>
+					</nav>
+					<ul class="contact-list">
+						<li class="contact-item">
+					<a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
+						</li>
+						<li class="contact-item">
+					<a href="tel:+380961111111" class="contact-link">38(096)111-11-11</a>
+						</li>
+					</ul>
+				</div>
 				</header>
-		</div>
     <main>
-     <div class="container">
-      <ul class="test-list">
-        <li class="item"><a class="test-link" href="/">Все</a></li>
-        <li class="item"><a class="test-link" href="/">Веб-сайт</a></li>
-        <li class="item"><a class="test-link" href="/">Додаток</a></li>
-        <li class="item"><a class="test-link" href="/">Дизайн</a></li>
-        <li class="item"><a class="test-link" href="/">Маркетинг</a></li>
-      </ul>
-     </div>
-      <div class="container-test">
-        <ul class="flex-container">
-          <li class="flex-elements">
-            <img
-              src="./images/portfolio/img.jpg"
-              alt="Kuroko"
-              width="370"
-              height="294"
-            />
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
-          </li>
-          <li class="flex-elements">
-            <img
-              src="./images/portfolio/img (1).jpg"
-              alt="Kuroko"
-              width="370"
-              height="294"
-            />
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
-          </li>
-          <li class="flex-elements">
-            <img
-              src="./images/portfolio/img (2).jpg"
-              alt="Kuroko"
-              width="370"
-              height="294"
-            />
-            <h2>Ресторан Seafood</h2>
-            <p>Додаток</p>
-          </li>
-          <li class="flex-elements">
-            <img
-              src="./images/portfolio/img (3).jpg"
-              alt="Kuroko"
-              width="370"
-              height="294"
-            />
-            <h2>Проект Prime</h2>
-            <p>Маркетинг</p>
-          </li>
-          <li class="flex-elements">
-            <img
-              src="./images/portfolio/img (4).jpg"
-              alt="Kuroko"
-              width="370"
-              height="294"
-            />
-            <h2>Проект Boxes</h2>
-            <p>Додаток</p>
-          </li>
-          <li class="flex-elements">
-            <img
-              src="./images/portfolio/img (5).jpg"
-              alt="Kuroko"
-              width="370"
-              height="294"
-            />
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
-          </li>
-          <li class="flex-elements">
-            <img
-              src="./images/portfolio/img (6).jpg"
-              alt="Kuroko"
-              width="370"
-              height="294"
-            />
-            <h2>Видання Limited Edition</h2>
-            <p>Дизайн</p>
-          </li>
-          <li class="flex-elements">
-            <img
-              src="./images/portfolio/img (7).jpg"
-              alt="Kuroko"
-              width="370"
-              height="294"
-            />
-            <h2>Проект LAB</h2>
-            <p>Маркетинг</p>
-          </li>
-          <li class="flex-elements">
-            <img
-              src="./images/portfolio/img (8).jpg"
-              alt="Kuroko"
-              width="370"
-              height="294"
-            />
-            <div class="content-box">
-              <h2>Growing Busines</h2>
-              <p>Додаток</p>
+<!-- Верхняя линия -->
+      <section class="section content">
+        <div class="container content">
+          <h1 class="visually-hidden">Портфолио</h1>
+          <ul class="content-primary-list">
+            <li class="content-list">
+              <button class="content-button curent" type="button">Все</button>
+            </li>
+            <li class="content-list">
+              <button class="content-button" type="button">Веб-сайт</button>
+            </li>
+            <li class="content-list">
+              <button class="content-button" type="button">Приложения</button>
+            </li>
+            <li class="content-list">
+              <button class="content-button" type="button">Дизайн</button>
+            </li>
+            <li class="content-list">
+              <button class="content-button" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="content-secondary-list">
+            <li class="wrap-items">
+              <a href="#" class="content-link">
+              <img class="content-image" src="./images/portfolio/img.jpg" alt="кряк" width="370" height="294">
+              <div class="content-block">
+              <h2 class="content-title">Технокряк</h2>
+              <p class="content-text">Веб-сайт</p>
             </div>
-          </li>
-        </ul>
-      </div>
+            </a>
+            </li>
+            <li class="wrap-items">
+              <a href="#" class="content-link">
+             <img class="content-image" src="./images/portfolio/img1.jpg" alt="постер" width="370" height="294">
+             <div class="content-block"> 
+             <h2 class="content-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+              <p class="content-text">Дизайн</p>
+            </div>
+            </a>
+            </li>
+            <li class="wrap-items">
+              <a href="#" class="content-link">
+              <img class="content-image" src="./images/portfolio/img2.jpg" alt="ресторан" width="370" height="294">
+              <div class="content-block">
+              <h2 class="content-title">Ресторан <span lang="en">Seafood</span></h2>
+              <p class="content-text">Додаток</p>
+            </div>
+            </a>
+            </li>
+            <li class="wrap-items">
+              <a href="#" class="content-link">
+              <img class="content-image" src="./images/portfolio/img3.jpg" alt="проект" width="370" height="294">
+              <div class="content-block">
+              <h2 class="content-title">Проект <span lang="en">Prime</span></h2>
+              <p class="content-text">Маркетинг</p>
+            </div>
+            </a>
+            </li>
+            <li class="wrap-items">
+              <a href="#" class="content-link">
+              <img class="content-image" src="./images/portfolio/img4.jpg" alt="додаток" width="370" height="294">
+              <div class="content-block">
+              <h2 class="content-title">Проект <span lang="en">Boxes</span></h2>
+              <p class="content-text">Додаток</p>
+            </div>
+            </a>
+            </li>
+            <li class="wrap-items">
+              <a href="#" class="content-link">
+              <img class="content-image" src="./images/portfolio/img5.jpg" alt="веб-сайт" width="370" height="294">
+              <div class="content-block">
+              <h2 class="content-title"> <span lang="en"> Inspiration has no Borders</span></h2>
+              <p class="content-text">Веб-сайт</p>
+            </div>
+            </a>
+            </li>
+            <li class="wrap-items">
+              <a href="#" class="content-link">
+              <img class="content-image" src="./images/portfolio/img6.jpg" alt="издание" width="370" height="294">
+              <div class="content-block">
+              <h2 class="content-title">Издание <span lang="en">Limited Edition</span></h2>
+              <p class="content-text">Дизайн</p>
+            </div>
+            </a>
+            </li>
+            <li class="wrap-items">
+              <a href="#" class="content-link">
+              <img class="content-image" src="./images/portfolio/img7.jpg" alt="маркетинг" width="370" height="294">
+              <div class="content-block">
+              <h2 class="content-title">Проект <span lang="en">LAB</span></h2>
+              <p class="content-text">Маркетинг</p>
+            </div>
+            </a>
+            </li>
+            <li class="wrap-items">
+              <a href="#" class="content-link">
+              <img class="content-image" src="./images/portfolio/img8.jpg" alt="приложение" width="370" height="294">
+              <div class="content-block">  
+              <h2 class="content-title"><span lang="en">Growing Busines</span></h2>
+                <p class="content-text">Приложение</p>
+              </div>
+              </a>
+            </li>
+          </ul>
+          </div>
+      </section> 
     </main>
-    <footer class="footer">
+   <!-- Подвал -->
+		<footer class="footer">
 			<div class="container">
-				<div class="footer-list"><span class="primary">Web</span><span class="secondary">Studio</span></div>
-			<address class="addres">
-				<p class="addres-text">
-					г.Киев,<br />
-					улица Лесная Украина,26<br />
-				</p>
-				<a class="addres-link" href="info@example.com">info@example.com</a>
-				<a class="addres-link" href="tel:+380991111111">+38(099)111-11-11</a>
+			<a class="logo-primary" href="./index.html">Web<span class="logo-secondary">Studio</span></a>
+			<address class="address">
+				<ul class="address-list">
+					<li class="address-item">
+						<a class="address-destination" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow">г. Киев, пр-т Леси Украинки, 26</a>  
+					</li>
+					<li class="address-item">
+				<a href="mailto:info@devstudio.com" class="address-contact">info@devstudio.com</a>
+					</li>
+					<li class="address-item">
+				<a href="tel:+380961111111" class="address-contact">38(096)111-11-11</a>
+					</li>
+				</ul>
 			</address>
-			</div>
+		    </div>
 			</footer> 
-  </body>
+	</body>
 </html>
