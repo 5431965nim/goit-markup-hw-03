@@ -75,6 +75,9 @@ body{
     font-size: 26px;
     line-height: 1.2;
 }
+.logo-primary.new{
+padding:0px;
+}
 .logo-secondary-noon{
     font-family:"Raleway",sans-serif;
     color:var(--logo-secondary-color);
@@ -210,6 +213,7 @@ color:var(--accent-color);
     line-height: 1.15;
     text-transform: uppercase;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
     
 }
 .feature-text{
@@ -271,6 +275,7 @@ color:var(--accent-color);
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 .team-text{
     color: var(--primary-text-color);
@@ -329,7 +334,8 @@ background-color: var(--accent-color);
 .content-primary-list{
     display: flex;
     justify-content: center;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
+    gap: 8px;
 }
 .content-primary-list .content-list + .contact-list{
     margin-left: 20px;
