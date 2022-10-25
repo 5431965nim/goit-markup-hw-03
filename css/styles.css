@@ -75,8 +75,9 @@ body{
     font-size: 26px;
     line-height: 1.2;
 }
-.logo-primary.new{
-padding:0px;
+.logo-secondary.footer,
+.logo-primary.footer{
+    padding: 0px;
 }
 .logo-secondary-noon{
     font-family:"Raleway",sans-serif;
@@ -389,6 +390,7 @@ background-color: var(--accent-color);
 }
 .address{
     font-style: normal;
+    margin-top: 25px;
 }
 .address-contact:hover,
 .address-contact:focus{
